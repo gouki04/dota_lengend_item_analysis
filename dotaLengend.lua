@@ -1,11 +1,4 @@
-local str = '¹þ¹þ¹þ'
-local _, count = string.gsub(str, "[^\128-\193]", "")
-
-print(''..count)
-
-do return end
-
-local output = io.open('output.txt', 'w')
+ï»¿local output = io.open('output.txt', 'w')
 print = function(...)
     output:write(...)
     output:write('\n')
