@@ -1,0 +1,2 @@
+lua dotaLengend.lua
+pause
